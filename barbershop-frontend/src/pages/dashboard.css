@@ -1,0 +1,91 @@
+.dashboard {
+  padding: 2rem;
+}
+
+.stat-boxes {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.chart-container {
+  background: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-bar {
+  display: flex;
+  gap: 6px;
+  height: 120px;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 8%;
+  background: #eee;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar-fill {
+  width: 100%;
+  background: #3f51b5;
+  border-radius: 4px 4px 0 0;
+}
+
+.recent-bookings {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+}
+
+.recent-bookings table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-bookings th,
+.recent-bookings td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.status.booked {
+  color: green;
+}
+
+.status.cancelled {
+  color: red;
+}
+
+.calendar-wrapper {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}

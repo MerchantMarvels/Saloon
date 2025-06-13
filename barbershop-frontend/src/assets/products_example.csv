@@ -1,0 +1,4 @@
+business_id,name,category_id,unit,price_per_unit
+68111f004a5ec96685f013b9,Apple,6834ce86de72044c6d78a310,kg,20
+68111f004a5ec96685f013b9,Banana,6834ce86de72044c6d78a310,Dozen,5
+68111f004a5ec96685f013b9,Mango,6834ce86de72044c6d78a310,kg,50

@@ -1,0 +1,133 @@
+/* contacts.css */
+
+.contacts-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  font-family: 'Inter', sans-serif;
+}
+
+.contacts-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-actions button {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Table Styling */
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contacts-table thead {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.contacts-table th,
+.contacts-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.contacts-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contacts-table tbody tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+}
+
+.modal h3 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-actions button {
+  padding: 8px 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+.modal-actions button:last-child {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* Action buttons in table */
+.contacts-table button {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 6px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contacts-table button:hover {
+  background-color: #5a4bd4;
+}
+

@@ -1,0 +1,54 @@
+.form-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .step-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #eee;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  
+  .step.active {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .days-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .hours-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
