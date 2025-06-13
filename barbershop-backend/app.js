@@ -56,3 +56,7 @@ app.use('/api/auth', authRoutes); // ✅ Hook up routes
 app.listen(PORT, () => {
   console.log(`✅ Server started on port ${PORT}`);
 });
+
+
+const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
+const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
